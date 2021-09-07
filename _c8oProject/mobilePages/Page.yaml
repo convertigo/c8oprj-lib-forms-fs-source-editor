@@ -1,0 +1,1069 @@
+↑isRoot: true
+comment: My First Page as root page
+preloadPriority: high
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        '/*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	public optionsTS = {theme: ''vs-dark'', language: ''typescript''};
+        	public optionsHtml = {theme: ''vs-dark'', language: ''html''};
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		this.local.view = {"technicalName":"formssource_", "name":{"en":"", es:"", "fr":"","it":""}, "comment":{"en":"", es:"", "fr":"","it":""}, map:{}};
+        		this.local.c8oformComputeKeys = {"map":{}}
+        		this.local.c8oformComputeKeysVars = [];
+        		this.local.result = {map:{es5:""}};
+        		
+        		
+        		var str = `var c8oformPostQuery = function (response, type, parameters){
+            // define here post query function
+        }`
+        this.local.c8oformPostQuery = {"map":{es6:str}};
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        '
+segment: path-to-page
+title: First page
+↓Header [mobile.components.UIDynamicElement-1491634212350]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Page header
+  tagName: ion-header
+  ↓NavBar [mobile.components.UIDynamicElement-1491634231108]: 
+    beanData: '{"ionBean":"NavBar"}'
+    tagName: ion-navbar
+    ↓BarTitle [mobile.components.UIDynamicElement-1491634265317]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      tagName: ion-title
+      ↓Text [mobile.components.UIText-1491634275121]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Création de sources de données pour Convertigo Forms
+    ↓Button [mobile.components.UIDynamicElement-1491634442029]: 
+      beanData: '{"ionBean":"Button","MenuMode":"plain:menuToggle"}'
+      comment: A button to toggle the menu
+      tagName: button
+      ↓Icon [mobile.components.UIDynamicElement-1491634475867]: 
+        beanData: '{"ionBean":"Icon","IconName":"plain:menu"}'
+        tagName: ion-icon
+    ↓ButtonSet [mobile.components.UIDynamicElement-1491634611427]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:right"}'
+      isEnabled: false
+      tagName: ion-buttons
+      ↓Button [mobile.components.UIDynamicElement-1491634621907]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: button
+        ↓Icon [mobile.components.UIDynamicElement-1491634637555]: 
+          beanData: '{"ionBean":"Icon","IconName":"plain:more"}'
+          tagName: ion-icon
+↓Content [mobile.components.UIDynamicElement-1489674805352]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Page content
+  tagName: ion-content
+  ↓TextFormat [mobile.components.UIDynamicElement-1622906812362]: 
+    beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+    tagName: div
+    ↓Heading [mobile.components.UIDynamicTag-1622906768488]: 
+      beanData: '{"ionBean":"Heading"}'
+      tagName: h1
+      ↓Text [mobile.components.UIText-1622906781955]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Source de donnée offline
+  ↓Directive11 [mobile.components.UIControlDirective-1623146083055]: 
+    directiveName: If
+    directiveSource: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+        - MobileSmartSourceType: script:this.local.show == undefined
+    ↓CardContainerViewName [mobile.components.UIDynamicElement-1623059261490]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓CardHeader [mobile.components.UIDynamicElement-1623059275500]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓TextFormat [mobile.components.UIDynamicElement-1623059309645]: 
+          beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+          tagName: div
+          ↓Heading [mobile.components.UIDynamicTag-1623059309648]: 
+            beanData: '{"ionBean":"Heading"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1623059309651]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Nom de la source de donnée
+      ↓CardContent [mobile.components.UIDynamicElement-1623059278912]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓GenericItem [mobile.components.UIDynamicElement-1623073380590]: 
+          beanData: '{"ionBean":"GenericItem"}'
+          tagName: ion-item
+          ↓Label [mobile.components.UIDynamicElement-1623073389136]: 
+            beanData: '{"ionBean":"Label"}'
+            tagName: ion-label
+            ↓Text [mobile.components.UIText-1623073389139]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:'Nom technique de la vue'
+          ↓TextInput [mobile.components.UIDynamicElement-1623073363046]: 
+            beanData: |
+              '{
+               "ionBean": "Input",
+               "Placeholder": "plain:Veuillez saisir le nom technique de la vue",
+               "Value": "plain:"
+              }'
+            tagName: ion-input
+            ↓Attr [mobile.components.UIAttribute-1623073460582]: 
+              attrName: '[(ngModel)]'
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:this.local.view.technicalName
+        ↓Directive1 [mobile.components.UIControlDirective-1623143885064]: 
+          directiveName: If
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.show == undefined
+        ↓Button [mobile.components.UIDynamicElement-1623143910457]: 
+          beanData: '{"ionBean":"Button"}'
+          tagName: button
+          ↓Text [mobile.components.UIText-1623143925735]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Créer nouvelle vue
+          ↓Event [mobile.components.UIControlEvent-1623143943144]: 
+            ↓CustomAction [mobile.components.UICustomAction-1623144107302]: 
+              actionValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      '		if(this.local.view.technicalName.indexOf(this.local.view.technicalName) == 0 && this.local.view.technicalName.length > 12){
+                      			var map =`function map (doc) {
+                          try {
+                              if (doc) {
+                                  emit(doc._id, doc);
+                              }
+                              
+                          } catch (err) {
+                              log(err.message);
+                          }
+                      }`
+                      		this.local.view = {"technicalName":this.local.view.technicalName, "name":{"en":"<p></p>", es:"<p></p>", "fr":"<p></p>","it":"<p></p>"}, "comment":{"en":"<div></div>", es:"<div></div>", "fr":"<div></div>","it":"<div></div>"}, map:{es6: map}};
+                      		var map2 =`var c8oformComputeKeys = function (){
+                          console.log("Executing c8oformComputeKeys");
+                          return {};
+                      }`
+                      		this.local.c8oformComputeKeys = {"map":{es6:map2}}
+                      		this.local.c8oformComputeKeysVars = [];
+                      		
+                      		var str = `var c8oformPostQuery = function (response, type, parameters){
+                          // define here post query function
+                      }`
+                      		this.local.c8oformPostQuery = {"map":{es6:str}};
+                      		this.local.show = true;
+                      		resolve(true);
+                      		}
+                      		else{
+                      			resolve(false);
+                      		}
+                      		
+                      		
+                      '
+              ↓PostData [mobile.components.UIDynamicAction-1623143962066]: 
+                beanData: |
+                  '{
+                   "ionBean": "FullSyncPostAction",
+                   "requestable": "plain:testEditeur.testediteur_fullsync",
+                   "_id": "script:this.local.view.technicalName"
+                  }'
+                ↓c8oformPostQuery [mobile.components.UIControlVariable-1623144749608]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:this.local.c8oformPostQuery
+                ↓c8oformComputeKeysVars [mobile.components.UIControlVariable-1623144783059]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:this.local.c8oformComputeKeysVars
+                ↓c8oformComputeKeys [mobile.components.UIControlVariable-1623144826574]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:this.local.c8oformComputeKeys
+                ↓view [mobile.components.UIControlVariable-1623144829480]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:this.local.view
+              ↓IfElse [mobile.components.UIDynamicIf-1624609046299]: 
+                beanData: '{"ionBean":"IfElseAction"}'
+                ↓Else_Handler [mobile.components.UIActionElseEvent-1624609087902]: 
+                  ↓Toast [mobile.components.UIDynamicAction-1624609093688]: 
+                    beanData: '{"ionBean":"ToastAction","message":"plain:Le nom de la source de donnée doit impérativement commencer par formssource_"}'
+  ↓Directive [mobile.components.UIControlDirective-1623142616437]: 
+    directiveName: If
+    directiveSource: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+        - MobileSmartSourceType: script:this.local.show != undefined
+    ↓CardContainerViewName1 [mobile.components.UIDynamicElement-1623146034524]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓CardHeader [mobile.components.UIDynamicElement-1623146034527]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓TextFormat [mobile.components.UIDynamicElement-1623146034530]: 
+          beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+          tagName: div
+          ↓Heading [mobile.components.UIDynamicTag-1623146034533]: 
+            beanData: '{"ionBean":"Heading"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1623146034536]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Nom de la vue (le HTML est supporté)
+      ↓CardContent [mobile.components.UIDynamicElement-1623146034539]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓GenericItem [mobile.components.UIDynamicElement-1623146034542]: 
+          beanData: '{"ionBean":"GenericItem"}'
+          tagName: ion-item
+          ↓Label [mobile.components.UIDynamicElement-1623146034545]: 
+            beanData: '{"ionBean":"Label"}'
+            tagName: ion-label
+            ↓Text [mobile.components.UIText-1623146034548]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:'Nom technique de la vue'
+          ↓TextInput [mobile.components.UIDynamicElement-1623146034551]: 
+            beanData: '{"ionBean":"Input","Placeholder":"plain:Veuillez saisir le nom technique de la vue"}'
+            tagName: ion-input
+            ↓Attr [mobile.components.UIAttribute-1623146034554]: 
+              attrName: '[(ngModel)]'
+              attrValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:this.local.view.technicalName
+        ↓Directive [mobile.components.UIControlDirective-1623146034587]: 
+          directiveName: If
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.show != undefined
+        ↓UseSharedComponent [mobile.components.UIUseShared-1623146034590]: 
+          sharedcomponent: testEditeur.MobileApplication.Application.SharedJSONEntry
+          ↓subject0 [mobile.components.UIControlVariable-1623146034593]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'view'
+          ↓subject1 [mobile.components.UIControlVariable-1623146034596]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'name'
+          ↓subject2 [mobile.components.UIControlVariable-1623146034599]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:['en','es','fr','it']
+    ↓CardContainerViewComment [mobile.components.UIDynamicElement-1623059499499]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓CardHeader [mobile.components.UIDynamicElement-1623059499502]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓TextFormat [mobile.components.UIDynamicElement-1623059499505]: 
+          beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+          tagName: div
+          ↓Heading [mobile.components.UIDynamicTag-1623059499508]: 
+            beanData: '{"ionBean":"Heading"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1623059499511]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Commentaire de la vue
+      ↓CardContent [mobile.components.UIDynamicElement-1623073815664]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓UseSharedComponent [mobile.components.UIUseShared-1623139728078]: 
+          sharedcomponent: testEditeur.MobileApplication.Application.SharedJSONEntry
+          ↓subject0 [mobile.components.UIControlVariable-1623139728081]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'view'
+          ↓subject1 [mobile.components.UIControlVariable-1623139728084]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'comment'
+          ↓subject2 [mobile.components.UIControlVariable-1623139728087]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:['en','es','fr','it']
+    ↓CardContainerViewCode [mobile.components.UIDynamicElement-1623071519444]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓CardHeader [mobile.components.UIDynamicElement-1623071519447]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓TextFormat [mobile.components.UIDynamicElement-1623071519450]: 
+          beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+          tagName: div
+          ↓Heading [mobile.components.UIDynamicTag-1623071519453]: 
+            beanData: '{"ionBean":"Heading"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1623071519456]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Code de la vue
+      ↓CardContent [mobile.components.UIDynamicElement-1623071519459]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓UseSharedComponent2 [mobile.components.UIUseShared-1623071519462]: 
+          sharedcomponent: testEditeur.MobileApplication.Application.SharedEditor
+          ↓label [mobile.components.UIControlVariable-1623071519465]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'Map'
+          ↓model [mobile.components.UIControlVariable-1623071519468]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:this.local.view.map
+          ↓options [mobile.components.UIControlVariable-1623071519471]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:this.optionsTS
+          ↓subject0 [mobile.components.UIControlVariable-1623073136859]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'view'
+          ↓subject1 [mobile.components.UIControlVariable-1623073136862]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'map'
+          ↓subject2 [mobile.components.UIControlVariable-1623073136865]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'es6'
+          ↓height [mobile.components.UIControlVariable-1623073938554]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'500px'
+        ↓Button [mobile.components.UIDynamicElement-1622905838221]: 
+          beanData: '{"ionBean":"Button"}'
+          isEnabled: false
+          tagName: button
+          ↓Text [mobile.components.UIText-1622905846980]: 
+            i18n: false
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Transpile
+          ↓Event [mobile.components.UIControlEvent-1622905860197]: 
+            ↓CustomAction [mobile.components.UICustomAction-1622905866325]: 
+              actionValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      '		this.local.transpilled = ts.transpile(this.local.view.map, {
+                          "target": "es5",
+                          "module": "commonjs"
+                      
+                        })
+                      		debugger;
+                      		resolve();
+                      '
+              isEnabled: false
+              module_ts_imports: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                  - com.twinsoft.convertigo.beans.common.XMLVector: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                      - com.twinsoft.convertigo.beans.common.XMLVector: 
+                        - java.lang.String: 
+                          - ↑value: '* as ts'
+                        - java.lang.String: 
+                          - ↑value: typescript
+              page_ts_imports: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                  - com.twinsoft.convertigo.beans.common.XMLVector: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                      - com.twinsoft.convertigo.beans.common.XMLVector: 
+                        - java.lang.String: 
+                          - ↑value: '* as ts'
+                        - java.lang.String: 
+                          - ↑value: typescript
+        ↓Text [mobile.components.UIText-1622906225057]: 
+          isEnabled: false
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.transpilled
+    ↓CardContainerC8oformComputeKeysVars [mobile.components.UIDynamicElement-1623140751478]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓CardHeader [mobile.components.UIDynamicElement-1623140751481]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓TextFormat [mobile.components.UIDynamicElement-1623140751484]: 
+          beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+          tagName: div
+          ↓Heading [mobile.components.UIDynamicTag-1623140751487]: 
+            beanData: '{"ionBean":"Heading"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1623140751490]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Variables de c8oformComputeKeys
+      ↓CardContent [mobile.components.UIDynamicElement-1623140751493]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓Button [mobile.components.UIDynamicElement-1623141450272]: 
+          beanData: '{"ionBean":"Button"}'
+          tagName: button
+          ↓Event [mobile.components.UIControlEvent-1623141541570]: 
+            ↓CustomAction [mobile.components.UICustomAction-1623141548430]: 
+              actionValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                  - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                    →: |
+                      		this.local.c8oformComputeKeysVars.push({"technicalName":"forms_", "name":{"en":"<p></p>", es:"<p></p>", "fr":"<p></p>","it":"<p></p>"}, "comment":{"en":"<div></div>", es:"<div></div>", "fr":"<div></div>","it":"<div></div>"}});
+                      		resolve();
+                      
+          ↓Text [mobile.components.UIText-1623141555242]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Ajouter Une variable
+        ↓Directive [mobile.components.UIControlDirective-1623140796707]: 
+          directiveIndexName: myIndexVar
+          directiveItemName: myVar
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.c8oformComputeKeysVars
+          ↓CardContainerViewName [mobile.components.UIDynamicElement-1623140831813]: 
+            beanData: '{"ionBean":"Card"}'
+            tagName: ion-card
+            ↓CardHeader [mobile.components.UIDynamicElement-1623140831816]: 
+              beanData: '{"ionBean":"CardHeader"}'
+              tagName: ion-card-header
+              ↓TextFormat [mobile.components.UIDynamicElement-1623140831819]: 
+                beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+                tagName: div
+                ↓Heading [mobile.components.UIDynamicTag-1623140831822]: 
+                  beanData: '{"ionBean":"Heading"}'
+                  tagName: h1
+                  ↓Text [mobile.components.UIText-1623140831825]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: script:'Nom de la variable ' + myVar.technicalName+  ' (le HTML est supporté)'
+              ↓Button [mobile.components.UIDynamicElement-1623146218572]: 
+                beanData: '{"ionBean":"Button","IonColor":"plain:danger"}'
+                tagName: button
+                ↓Text [mobile.components.UIText-1623146233589]: 
+                  textValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: plain:supprimer cette variable
+                ↓Event [mobile.components.UIControlEvent-1623146273467]: 
+                  ↓CustomAction [mobile.components.UICustomAction-1623146287493]: 
+                    actionValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            		this.local.c8oformComputeKeysVars.splice(vars.index, 1);
+                            		let str = this.local.c8oformComputeKeys.map.es6;
+                            		var strKey = "var c8oformComputeKeys = function (";
+                            		let start = str.substring(0, str.indexOf(strKey)+strKey.length)
+                            		let end =  str.substring(str.indexOf("){"));
+                            		let insert = "";
+                            		this.local.c8oformComputeKeysVars.forEach((key, index)=>{
+                            			if(index == 0){
+                            				insert += key.technicalName;
+                            			}
+                            			else{
+                            				insert +=", " + key.technicalName;
+                            			}
+                            		});
+                            		
+                            		this.local.c8oformComputeKeys.map.es6 = start+insert+end;
+                            		this.tick();
+                            		resolve();
+                            
+                    ↓index [mobile.components.UIControlVariable-1623146303901]: 
+                      varValue: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                          - MobileSmartSourceType: script:myIndexVar
+            ↓CardContent [mobile.components.UIDynamicElement-1623140831828]: 
+              beanData: '{"ionBean":"CardContent"}'
+              tagName: ion-card-content
+              ↓GenericItem [mobile.components.UIDynamicElement-1623140831831]: 
+                beanData: '{"ionBean":"GenericItem"}'
+                tagName: ion-item
+                ↓Label [mobile.components.UIDynamicElement-1623140831834]: 
+                  beanData: '{"ionBean":"Label"}'
+                  tagName: ion-label
+                  ↓Text [mobile.components.UIText-1623140831837]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: script:'Nom technique de la variable'
+                ↓TextInput [mobile.components.UIDynamicElement-1623140831840]: 
+                  beanData: '{"ionBean":"Input","Placeholder":"plain:Veuillez saisir le nom technique de la vue"}'
+                  tagName: ion-input
+                  ↓Attr [mobile.components.UIAttribute-1623140831843]: 
+                    attrName: '[(ngModel)]'
+                    attrValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: script:myVar.technicalName
+                  ↓Event [mobile.components.UIControlEvent-1623146956007]: 
+                    attrName: (change)
+                    eventName: onChange
+                    ↓CustomAction [mobile.components.UICustomAction-1623146972160]: 
+                      actionValue: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                            →: |
+                              		let str = this.local.c8oformComputeKeys.map.es6;
+                              		var strKey = "var c8oformComputeKeys = function (";
+                              		let start = str.substring(0, str.indexOf(strKey)+strKey.length)
+                              		let end =  str.substring(str.indexOf("){"));
+                              		let insert = "";
+                              		this.local.c8oformComputeKeysVars.forEach((key, index)=>{
+                              			if(index == 0){
+                              				insert += key.technicalName;
+                              			}
+                              			else{
+                              				insert +=", " + key.technicalName;
+                              			}
+                              		});
+                              		
+                              		this.local.c8oformComputeKeys.map.es6 = start+insert+end;
+                              		resolve();
+                              
+              ↓UseSharedComponent [mobile.components.UIUseShared-1623140831846]: 
+                sharedcomponent: testEditeur.MobileApplication.Application.SharedJSONEntry
+                ↓subject0 [mobile.components.UIControlVariable-1623140831849]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:'c8oformComputeKeysVars'
+                ↓subject1 [mobile.components.UIControlVariable-1623140831852]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:'name'
+                ↓subject2 [mobile.components.UIControlVariable-1623140831855]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:['en','es','fr','it']
+                ↓i [mobile.components.UIControlVariable-1623141180461]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:myIndexVar
+              ↓Text [mobile.components.UIText-1623142095175]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: script:myIndexVar
+          ↓CardContainerViewComment [mobile.components.UIDynamicElement-1623140831858]: 
+            beanData: '{"ionBean":"Card"}'
+            tagName: ion-card
+            ↓CardHeader [mobile.components.UIDynamicElement-1623140831861]: 
+              beanData: '{"ionBean":"CardHeader"}'
+              tagName: ion-card-header
+              ↓TextFormat [mobile.components.UIDynamicElement-1623140831864]: 
+                beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+                tagName: div
+                ↓Heading [mobile.components.UIDynamicTag-1623140831867]: 
+                  beanData: '{"ionBean":"Heading"}'
+                  tagName: h1
+                  ↓Text [mobile.components.UIText-1623140831870]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: script:'Commentaire de la variable ' + myVar.technicalName+  ' (le HTML est supporté)'
+            ↓CardContent [mobile.components.UIDynamicElement-1623140831873]: 
+              beanData: '{"ionBean":"CardContent"}'
+              tagName: ion-card-content
+              ↓UseSharedComponent [mobile.components.UIUseShared-1623140831876]: 
+                sharedcomponent: testEditeur.MobileApplication.Application.SharedJSONEntry
+                ↓subject0 [mobile.components.UIControlVariable-1623140831879]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:'c8oformComputeKeysVars'
+                ↓subject1 [mobile.components.UIControlVariable-1623140831882]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:'comment'
+                ↓subject2 [mobile.components.UIControlVariable-1623140831885]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:['en','es','fr','it']
+                ↓i [mobile.components.UIControlVariable-1623141183324]: 
+                  varValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: script:myIndexVar
+    ↓CardContainerC8oformComputeKeys [mobile.components.UIDynamicElement-1623139815771]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓CardHeader [mobile.components.UIDynamicElement-1623139815774]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓TextFormat [mobile.components.UIDynamicElement-1623139815777]: 
+          beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+          tagName: div
+          ↓Heading [mobile.components.UIDynamicTag-1623139815780]: 
+            beanData: '{"ionBean":"Heading"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1623139815783]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Fonction à executer avant la vue (c8oformComputeKeys)
+      ↓CardContent [mobile.components.UIDynamicElement-1623139815786]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓UseSharedComponent2 [mobile.components.UIUseShared-1623139815789]: 
+          sharedcomponent: testEditeur.MobileApplication.Application.SharedEditor
+          ↓label [mobile.components.UIControlVariable-1623139815792]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'Map'
+          ↓model [mobile.components.UIControlVariable-1623139815795]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:this.local.view.map
+          ↓options [mobile.components.UIControlVariable-1623139815798]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:this.optionsTS
+          ↓subject0 [mobile.components.UIControlVariable-1623139815801]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'c8oformComputeKeys'
+          ↓subject1 [mobile.components.UIControlVariable-1623139815804]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'map'
+          ↓subject2 [mobile.components.UIControlVariable-1623139815807]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'es6'
+          ↓height [mobile.components.UIControlVariable-1623139815810]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'500px'
+    ↓CardContainerC8oformPostQuery [mobile.components.UIDynamicElement-1623141256318]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓CardHeader [mobile.components.UIDynamicElement-1623141256321]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓TextFormat [mobile.components.UIDynamicElement-1623141256324]: 
+          beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+          tagName: div
+          ↓Heading [mobile.components.UIDynamicTag-1623141256327]: 
+            beanData: '{"ionBean":"Heading"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1623141256330]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Fonction à executer aprés la vue (c8oformPostQuery)
+      ↓CardContent [mobile.components.UIDynamicElement-1623141256333]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓UseSharedComponent2 [mobile.components.UIUseShared-1623141256336]: 
+          sharedcomponent: testEditeur.MobileApplication.Application.SharedEditor
+          ↓label [mobile.components.UIControlVariable-1623141256339]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'Map'
+          ↓options [mobile.components.UIControlVariable-1623141256345]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:this.optionsTS
+          ↓subject0 [mobile.components.UIControlVariable-1623141256348]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'c8oformPostQuery'
+          ↓subject1 [mobile.components.UIControlVariable-1623141256351]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'map'
+          ↓subject2 [mobile.components.UIControlVariable-1623141256354]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'es6'
+          ↓height [mobile.components.UIControlVariable-1623141256357]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'500px'
+    ↓CardContainerOutPut [mobile.components.UIDynamicElement-1623147839459]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓CardHeader [mobile.components.UIDynamicElement-1623147839462]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓TextFormat [mobile.components.UIDynamicElement-1623147839465]: 
+          beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+          tagName: div
+          ↓Heading [mobile.components.UIDynamicTag-1623147839468]: 
+            beanData: '{"ionBean":"Heading"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1623147839471]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Résultat
+      ↓CardContent [mobile.components.UIDynamicElement-1623147839474]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓UseSharedComponent2 [mobile.components.UIUseShared-1623147839477]: 
+          sharedcomponent: testEditeur.MobileApplication.Application.SharedEditor
+          ↓label [mobile.components.UIControlVariable-1623147839480]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'Map'
+          ↓options [mobile.components.UIControlVariable-1623147839483]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:this.optionsTS
+          ↓subject0 [mobile.components.UIControlVariable-1623147839486]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'result'
+          ↓subject1 [mobile.components.UIControlVariable-1623147839489]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'map'
+          ↓subject2 [mobile.components.UIControlVariable-1623147839492]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'es5'
+          ↓height [mobile.components.UIControlVariable-1623147839495]: 
+            varValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:'2000px'
+  ↓Directive1 [mobile.components.UIControlDirective-1623142937177]: 
+    directiveName: If
+    directiveSource: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+        - MobileSmartSourceType: script:this.local.show == undefined
+    ↓ListContainer [mobile.components.UIDynamicElement-1623142965602]: 
+      beanData: '{"ionBean":"List"}'
+      tagName: ion-list
+      ↓Directive [mobile.components.UIControlDirective-1623142975351]: 
+        directiveItemName: item
+        directiveSource: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Database","project":"testEditeur","input":"","model":{"data":[{"includeDocs":false,"connector":"testEditeur.testediteur_fullsync","document":"testEditeur.testediteur_fullsync.SearchAll","queryview":"view","verb":"view","marker":""}],"path":"?.rows","prefix":"","suffix":"","custom":"","useCustom":false}}
+        ↓Button [mobile.components.UIDynamicElement-1623144044424]: 
+          beanData: '{"ionBean":"Button","ButtonType":"plain:ion-item"}'
+          tagName: button
+          ↓Text [mobile.components.UIText-1623143017644]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: script:item.id
+          ↓Event [mobile.components.UIControlEvent-1623145113088]: 
+            ↓GetData [mobile.components.UIDynamicAction-1623145120477]: 
+              beanData: |
+                '{
+                 "ionBean": "FullSyncGetAction",
+                 "requestable": "plain:testEditeur.testediteur_fullsync",
+                 "_id": "script:stack.root.scope.item.id"
+                }'
+              ↓CustomAction [mobile.components.UICustomAction-1623145176965]: 
+                actionValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                      →: |
+                        		this.local.view = props.parent.out.view;
+                        		this.local.c8oformComputeKeys = props.parent.out.c8oformComputeKeys;
+                        		this.local.c8oformComputeKeysVars = props.parent.out.c8oformComputeKeysVars
+                        		this.local.c8oformPostQuery = props.parent.out.c8oformPostQuery;
+                        		this.local.show = true;
+                        		resolve();
+                        
+↓Footer [mobile.components.UIDynamicElement-1491634242460]: 
+  beanData: '{"ionBean":"Footer"}'
+  comment: Page footer
+  tagName: ion-footer
+  ↓ToolBar [mobile.components.UIDynamicElement-1491634317538]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓ButtonSet [mobile.components.UIDynamicElement-1491634325595]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:left"}'
+      tagName: ion-buttons
+      ↓Button [mobile.components.UIDynamicElement-1491634332730]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: button
+        ↓Text [mobile.components.UIText-1491634340354]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Action 1
+    ↓ButtonSet1 [mobile.components.UIDynamicElement-1491634373539]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:right"}'
+      tagName: ion-buttons
+      ↓Button [mobile.components.UIDynamicElement-1491634376874]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: button
+        ↓Text [mobile.components.UIText-1491634383107]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Save
+        ↓Event [mobile.components.UIControlEvent-1623145871388]: 
+          ↓CustomAction [mobile.components.UICustomAction-1623145871391]: 
+            actionValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                  →: |
+                    		resolve();
+                    
+            ↓PostData [mobile.components.UIDynamicAction-1623145871394]: 
+              beanData: |
+                '{
+                 "ionBean": "FullSyncPostAction",
+                 "requestable": "plain:testEditeur.testediteur_fullsync",
+                 "_id": "script:this.local.view.technicalName"
+                }'
+              ↓c8oformPostQuery [mobile.components.UIControlVariable-1623145871397]: 
+                varValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: script:this.local.c8oformPostQuery
+              ↓c8oformComputeKeysVars [mobile.components.UIControlVariable-1623145871400]: 
+                varValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: script:this.local.c8oformComputeKeysVars
+              ↓c8oformComputeKeys [mobile.components.UIControlVariable-1623145871403]: 
+                varValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: script:this.local.c8oformComputeKeys
+              ↓view [mobile.components.UIControlVariable-1623145871406]: 
+                varValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: script:this.local.view
+              ↓ComputeView [mobile.components.UICustomAction-1623147908438]: 
+                actionValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                      →: |
+                        '		this.local.result.map.es5 = `/*Begin_map_meta
+                        {
+                                "en": {
+                                    "displayName": "${this.local.view.name.en}",
+                                    "comment": "${this.local.view.comment.en}"
+                                },
+                                "fr": {
+                                    "displayName": "${this.local.view.name.fr}",
+                                    "comment": "${this.local.view.comment.fr}"
+                                },
+                                "es": {
+                                    "displayName": "${this.local.view.name.es}",
+                                    "comment": "${this.local.view.comment.es}"
+                                },
+                                "it": {
+                                    "displayName": "${this.local.view.name.it}",
+                                    "comment": "${this.local.view.comment.it}"
+                                }
+                        }
+                        End_map_meta*/
+                        `;
+                        		var transpilled = ts.transpile(this.local.view.map.es6, {
+                        		    target: ts.ScriptTarget.ES5,
+                        		    module: ts.ModuleKind.CommonJS
+                        		
+                        		});
+                        		 
+                        		this.local.view.map.es5 = (transpilled).substring(0,transpilled.lastIndexOf("}"));
+                        		
+                        		this.local.c8oformComputeKeys.map.es5 = ts.transpile(this.local.c8oformComputeKeys.map.es6, {
+                        		    target: ts.ScriptTarget.ES5,
+                        		    module: ts.ModuleKind.CommonJS
+                        		
+                        		});
+                        		
+                        		this.local.c8oformPostQuery.map.es5 = ts.transpile(this.local.c8oformPostQuery.map.es6, {
+                        		    target: ts.ScriptTarget.ES5,
+                        		    module: ts.ModuleKind.CommonJS
+                        		
+                        		});
+                        		this.local.result.map.es5 += this.local.view.map.es5;
+                        		this.local.result.map.es5+= `
+                        /*Begin_c8oformComputeKeys_meta
+                        {
+                        		`;
+                        		for(let vars of this.local.c8oformComputeKeysVars){
+                        			this.local.result.map.es5+= `"${vars.technicalName}": {
+                                    "en": {
+                                        "displayName": "${vars.name.en}",
+                                        "comment": "${vars.comment.en}"
+                                    },
+                                    "fr": {
+                                        "displayName": "${vars.name.fr}",
+                                        "comment": "${vars.comment.fr}"
+                                    },
+                                    "es": {
+                                        "displayName": "${vars.name.es}",
+                                        "comment": "${vars.comment.es}"
+                                    },
+                                    "it": {
+                                        "displayName": "${vars.name.it}",
+                                        "comment": "${vars.comment.it}"
+                                    }
+                                }`
+                        		}
+                        		this.local.result.map.es5 +=  `
+                            }
+                            End_c8oformComputeKeys_meta*/
+                        
+                            /*Begin_c8oformComputeKeys_function*/
+                            ${this.local.c8oformComputeKeys.map.es5}
+                            /*End_c8oformComputeKeys_function*/
+                            
+                            /*Begin_c8oformPostQuery_function*/
+                            ${this.local.c8oformPostQuery.map.es5}
+                            /*End_c8oformPostQuery_function*/
+                        }` 
+                        this.local.result.map.es5 = this.local.result.map.es5.replace("function map(doc) {", "function map (doc) {")
+                        		
+                        		resolve();
+                        '
+                page_ts_imports: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                    - com.twinsoft.convertigo.beans.common.XMLVector: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                        - com.twinsoft.convertigo.beans.common.XMLVector: 
+                          - java.lang.String: 
+                            - ↑value: '* as ts'
+                          - java.lang.String: 
+                            - ↑value: typescript
+↓PageEvent [mobile.components.UIPageEvent-1622904662518]: 
+  ↓CustomAction [mobile.components.UICustomAction-1622904669988]: 
+    module_ng_imports: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: MonacoEditorModule.forRoot()
+    module_ts_imports: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: MonacoEditorModule
+              - java.lang.String: 
+                - ↑value: ngx-monaco-editor
+    package_dependencies: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: ngx-monaco-editor
+              - java.lang.String: 
+                - ↑value: 5.0.0
+  ↓SyncData [mobile.components.UIDynamicAction-1623142850882]: 
+    beanData: '{"ionBean":"FullSyncSyncAction","requestable":"plain:testEditeur.testediteur_fullsync"}'
+    ↓QueryView [mobile.components.UIDynamicAction-1623142867284]: 
+      beanData: |
+        '{
+         "ionBean": "FullSyncViewAction",
+         "fsview": "plain:testEditeur.testediteur_fullsync.SearchAll.view",
+         "__live": "plain:*"
+        }'
+      ↓CustomAction [mobile.components.UICustomAction-1623143609902]: 
+        actionValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+            - com.twinsoft.convertigo.beans.common.FormatedContent: 
+              →: |
+                		console.log(props.parent.out);
+                		resolve();
+                

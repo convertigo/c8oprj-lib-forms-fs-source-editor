@@ -1,0 +1,97 @@
+↓GenericItem [mobile.components.UIDynamicElement-1623058723135]: 
+  beanData: '{"ionBean":"GenericItem"}'
+  tagName: ion-item
+  ↓Label [mobile.components.UIDynamicElement-1623058723138]: 
+    beanData: '{"ionBean":"Label"}'
+    tagName: ion-label
+    ↓Text [mobile.components.UIText-1623058723141]: 
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+          - MobileSmartSourceType: script:params1623058708528.label
+↓Div [mobile.components.UIDynamicElement-1623058723144]: 
+  beanData: '{"ionBean":"DivTag"}'
+  tagName: div
+  ↓Attr [mobile.components.UIAttribute-1623072759324]: 
+    attrName: '[ngStyle]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+        - MobileSmartSourceType: 'script:{''height'': params1623058708528.height}'
+  ↓Directive [mobile.components.UIControlDirective-1623141761483]: 
+    directiveName: If
+    directiveSource: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+        - MobileSmartSourceType: script:params1623058708528.i == null
+    ↓Tag [mobile.components.UIElement-1623058723147]: 
+      tagName: ngx-monaco-editor
+      ↓Attr [mobile.components.UIAttribute-1623058723150]: 
+        attrName: '[options]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:params1623058708528.options
+      ↓Attr1 [mobile.components.UIAttribute-1623058723153]: 
+        attrName: language
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:html
+      ↓Attr11 [mobile.components.UIAttribute-1623058723156]: 
+        attrName: '[(ngModel)]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:this.local[params1623058708528.subject0][params1623058708528.subject1][params1623058708528.subject2]
+      ↓Style [mobile.components.UIStyle-1623058723159]: 
+        styleContent: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+            - com.twinsoft.convertigo.beans.common.FormatedContent: 
+              →: |
+                'height: 100%;
+                '
+  ↓Directive1 [mobile.components.UIControlDirective-1623141790018]: 
+    directiveName: If
+    directiveSource: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+        - MobileSmartSourceType: script:params1623058708528.i != null
+    ↓Tag [mobile.components.UIElement-1623141803510]: 
+      tagName: ngx-monaco-editor
+      ↓Attr [mobile.components.UIAttribute-1623141803513]: 
+        attrName: '[options]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:params1623058708528.options
+      ↓Attr1 [mobile.components.UIAttribute-1623141803516]: 
+        attrName: language
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:html
+      ↓Attr11 [mobile.components.UIAttribute-1623141803519]: 
+        attrName: '[(ngModel)]'
+        attrValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:this.local[params1623058708528.subject0][params1623058708528.i][params1623058708528.subject1][params1623058708528.subject2]
+      ↓Style [mobile.components.UIStyle-1623141803522]: 
+        styleContent: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+            - com.twinsoft.convertigo.beans.common.FormatedContent: 
+              →: |
+                'height: 100%;
+                '
+↓label [mobile.components.UICompVariable-1623058734305]: 
+↓options [mobile.components.UICompVariable-1623058779369]: 
+↓height [mobile.components.UICompVariable-1623072728196]: 
+  value: '''50px'''
+↓subject0 [mobile.components.UICompVariable-1623072897713]: 
+↓subject1 [mobile.components.UICompVariable-1623072981340]: 
+↓subject2 [mobile.components.UICompVariable-1623072989970]: 
+↓i [mobile.components.UICompVariable-1623141744831]: 
+  value: null
